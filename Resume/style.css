@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* image section*/
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4376c8;
+    box-shadow: 2px 2px 10px #d74343;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* Main container */
+.outside {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+
+/* Resume heading */
+#head {
+    text-align: justify;
+    color: #1539dc;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 3px;
+}
+
+/* Name section */
+.name {
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Address section */
+#address {
+    margin: 15px 0;
+    padding: 10px;
+    background: #efb564;
+    border-radius: 8px;
+    font-weight: bolder;
+   
+}
+
+/* End/Footer section */
+#end {
+    margin-top: 30px;
+    padding: 20px;
+    background: #efb564;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+    color: #1539dc;
+}
+
+.line {
+    border-color: #5c78c5;
+}
